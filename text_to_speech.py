@@ -8,6 +8,7 @@ import os
 from playsound import playsound
 # The text that you want to convert to audio
 
+
 def textToSpeech(mytext):
 
     # Language in which you want to convert
@@ -24,5 +25,5 @@ def textToSpeech(mytext):
     myobj.save("welcome.mp3")
 
     # Playing the converted file
-    playsound(r'C:\Users\kaurg\Trash-Talk\welcome.mp3')
+    playsound(r'C:\Users\ambar\Documents\Projects\Trash-Talk\welcome.mp3')
     # os.system("mpg321 welcome.mp3")
