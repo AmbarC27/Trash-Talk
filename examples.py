@@ -1,3 +1,6 @@
+import cohere
+from cohere.classify import Example
+
 blue_examples = [Example("Plastic bottles", "Blue"),
     Example("Aluminum cans", "Blue"),
     Example("Glass bottles and jars", "Blue"),
